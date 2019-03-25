@@ -8,7 +8,7 @@ Modularity is the ability to divide the problem into small independent parts, th
 
 An object-based language gives us the ability to define objects like javascript.
 
-Remenber the main different between function and object is that object represent one entity.
+Remember the main different between function and object is that object represent one entity.
 A entity is one code fragment that has information, behavior and a representation the real world.
 
 
