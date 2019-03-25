@@ -176,10 +176,6 @@ user.showUserName(); // show David
 console.log("i'm "+user.name+" i have "+user.age +" years old."); //show i'm David i have 25 years old.
  ```
 
-## Getters and Setters
-empty
-
-
 ## POJO Plain Old Javascript Object
 
 A POJO (Plain Old Javascript Object) is a object special type.
