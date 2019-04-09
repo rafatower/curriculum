@@ -7,7 +7,7 @@ A form is made of multiple HTML elements: labels, text inputs, checkboxes, radio
 
 > Warning: there is a lot of confussion on how to use forms, so be very careful when using information from other sources.
 
-## Hands on!
+## Lets draw!
 
 Draw a form with the information we would like to gather:
   
@@ -108,25 +108,6 @@ The HTML `<textarea>` element represents a multi-line text input, useful when yo
 
 Be careful, the `<input>` tag is a self-closed tag, while `<textarea>` is a open tag. Inside a `<textarea>`, you can add the default text.
 
-## The `select` and `option` elements
-
-The HTML `<select>` element represents a control that provides a menu of options. A `select` is composed of multiple `options`
-
-```html
-<form action="url" method="post">
-  <div>
-    <label for="fav-animal">Choose your favourite animal:</label>
-    <select id="fav-animal" name="fav-animal">
-      <option>Diplodocus</option>
-      <option selected>Jellyfish</option>
-      <option>Cockroach</option>
-    </select>
-  </div>
-</form>
-```
-
-If an `option` has the selected attribute, will be the default selected value for the `select`
-
 ## The `button` element
 
 The HTML `<button>` element represents a clickable button.
@@ -145,11 +126,51 @@ A `<button>` element should have one attribute:
   - **submit**: The button submits the form data to the server. This is the default if the attribute is not specified
   - **button**: The button has no default behavior. It usually will be triggered with javascript events.
 
+## The `select` and `option` elements
+
+The HTML `<select>` element represents a control that provides a menu of options. A `select` is composed of multiple `options`
+
+```html
+<form action="url" method="post">
+  <div>
+    <label for="fav-animal">Choose your favourite animal:</label>
+    <select id="fav-animal" name="fav-animal">
+      <option>Diplodocus</option>
+      <option selected>Jellyfish</option>
+      <option>Cockroach</option>
+    </select>
+  </div>
+</form>
+```
+
+If an `option` has the selected attribute, will be the default selected value for the `select`.
+
+## The `checkbox` element
+
+Elements of type `<checkbox>` are rendered by default as square boxes that are checked when activated, like you might see in an official government paper form.
+
+```html
+<form action="url" method="post">
+  <fieldset>
+    <legend>Choose your interests</legend>
+    <div>
+      <input type="checkbox" id="coding" name="interest" value="coding" checked>
+      <label for="coding">Coding</label>
+    </div>
+    <div>
+      <input type="checkbox" id="music" name="interest" value="music">
+      <label for="music">Music</label>
+    </div>
+  </fieldset>
+</form>
+```
+
 ## Hands on!
 
 Remember that we are still using HTML, so use the full potential of HTML: sections, lists, strong..etc.
 
 ### Basic exercise: contact form
+
 Create a contact form in your website. Ask the user for: name, email, date of birth and comments.
 
 
