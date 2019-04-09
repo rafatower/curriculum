@@ -98,9 +98,9 @@ The HTML `<textarea>` element represents a multi-line text input, useful when yo
 ```html
 <form action="url" method="post">
   <div>
-    <label for="story">Tell us your story:</label>
+    <label for="story">Tell how to cook your omelette:</label>
     <textarea id="story" name="story">
-      It was a dark and stormy night...
+      First, scramble the eggs.
     </textarea>
   </div>
 </form>
@@ -115,7 +115,7 @@ The HTML `<button>` element represents a clickable button.
 ```html
 <form action="url" method="post">
   <div>
-    <button type="submit">Send your message</button>
+    <button type="submit">Send</button>
   </div>
 </form>
 ```
@@ -145,7 +145,7 @@ The HTML `<select>` element represents a control that provides a menu of options
 
 If an `option` has the selected attribute, will be the default selected value for the `select`.
 
-## The `checkbox` element
+## The `checkbox` input type
 
 Elements of type `<checkbox>` are rendered by default as square boxes that are checked when activated, like you might see in an official government paper form.
 
@@ -164,6 +164,26 @@ Elements of type `<checkbox>` are rendered by default as square boxes that are c
   </fieldset>
 </form>
 ```
+
+## The `radio` input type
+elements of type radio  are similar to checkboxes with the singularity that only one radio button in a given group can be selected at the same time. 
+
+```html
+<form action="url" method="post">
+  <fieldset>
+    <legend>Choose your favorite thing in the world</legend>
+    <div>
+      <input type="radio" id="huey" name="drone" value="huey" checked>
+      <label for="huey">Coding</label>
+    </div>
+    <div>
+      <input type="radio" id="dewey" name="drone" value="dewey">
+      <label for="dewey">Music</label>
+    </div>
+  </fieldset>
+</form>
+```
+
 
 ## Hands on!
 
