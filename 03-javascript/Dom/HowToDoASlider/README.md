@@ -1,0 +1,1 @@
+A example that a slider
