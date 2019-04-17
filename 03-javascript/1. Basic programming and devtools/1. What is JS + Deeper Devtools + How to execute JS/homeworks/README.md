@@ -26,4 +26,4 @@ function Main{
 new Main().execute();
 ```
 
-[template](https://gist.github.com/jonayGodoy/bb91fab7e696d88ff429e3242a15fe18)
+[template](https://gist.github.com/jonayGodoy/5b2d537ba413809d47888b2a907a879e)
