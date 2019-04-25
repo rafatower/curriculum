@@ -70,6 +70,6 @@ Comments are parts of our HTML that will not be visible to the user. It is used 
 ```
 
 ## Hands on!
-Create a new file `index.html` and add the previous HTML. Play with it: add tahs, add comments and open it in your browser to see how it looks. 
+Create a new file `index.html` and add the previous HTML. Play with it: add tags, add comments and open it in your browser to see how it looks. 
 
 Is your first website!
