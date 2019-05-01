@@ -86,3 +86,6 @@ Example of the page when the text is long
 Example of the page when the text is short
 
 ![exercise-8-2](ejercicio-8-2.png)
+
+
+references: [adalab-flexbox](https://books.adalab.es/materiales-front-end-e/sprint-1.-hola-mundo/1_4_posicionamiento_con_flexbox)
