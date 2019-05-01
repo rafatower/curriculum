@@ -1,9 +1,9 @@
 ## introduction
 
-Durante esta sesión veremos
-- Algunas unidades de medida nuevas: %, vh y vw.
-- Las propiedades min-width, max-width, min-height y max-height.
-- Cómo distribuir los elementos en una página usando Flexbox.
+During this session we will see
+- Some new units of measurement:%, vh and vw.
+- The properties min-width, max-width, min-height and max-height.
+- How to distribute the elements on a page using Flexbox.
 
 ## Absolute units
 - **Absolute units**, whose size does not vary. A pixel is always a pixel. Let's see some more units.
