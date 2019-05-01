@@ -32,7 +32,7 @@ Example:
 5. The remaining space should be used to separate the menu options, one from the other
 
 
-## EXERCISE 4 JUSTIFY CONTENT y ALIGN ITEMS
+## EXERCISE 4 Order
 
 Example:
 
