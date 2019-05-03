@@ -82,25 +82,27 @@ As you probably remember, an HTML element can have attributes.
 Attribute selectors are a special kind of selector that will match elements based on their attributes and attribute values.
 
 ```html
-<ul>
-  <li data-quantity="1kg" data-vegetable>Tomatoes</li>
-  <li data-quantity="3" data-vegetable>Onions</li>
-  <li data-quantity="3" data-vegetable>Garlic</li>
-</ul>
+<div>
+  <img src="image1.jpg">
+  <img src="image2.jpg" alt="">
+  <img src="image3.jpg" alt="This is a nice image description">
+</div>
 ```
 
 ```css
-/* All elements with the attribute "data-quantity"
-   are given green text */
-[data-quantity] {
-  color: green;
+/* All `img` elements are given green border */
+img {
+  border: 4px green dashed;
 }
 
-/* All elements with the attribute "data-quantity"
-   with the exact value "liquid" are given a golden
-   background color */
-[data-quantity="3"] {
-  background-color: goldenrod;
+/* All `img` elements that have and `alt=""` attribute are given yellow border */
+img[alt=""] {
+  border: 4px yellow dashed;
+}
+
+/* All `img` elements that DO NOT have and `alt` attribute are given red border */
+img:not([alt]) {
+  border: 4px red dashed;
 }
 ```
 
