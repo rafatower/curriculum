@@ -41,7 +41,7 @@ Try it in your browser and see what happens. Change it and play with it.
 Every selector of css is composed of a selector and its attributes. There are multiple selector types and hundreds of attributes, but most of the time it will follow the same structure.
 This is how a CSS selector looks like:
 
-![CSS Sintax](/curriculum/02-css/assets/css-sintax.png "CSS Sintax")
+![CSS Sintax](./assets/css-sintax.png "CSS Sintax")
 
 For instance
 

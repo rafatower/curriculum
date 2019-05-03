@@ -4,8 +4,8 @@ Every HTML element is is represented as a rectangular box, with the box's conten
 
 ## CSS Box model
 
-![CSS box model](/curriculum/02-css/assets/css-box-model.png "CSS box model")
-![CSS box model](/curriculum/02-css/assets/box-model.png "CSS box model")
+![CSS box model](./assets/css-box-model.png "CSS box model")
+![CSS box model](./assets/box-model.png "CSS box model")
 
 Let's review it:
 
