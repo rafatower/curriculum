@@ -48,7 +48,7 @@ Example:
 
 ![exercise-5](ejercicio-5.png)
 
-- Make a page with <header>, <main> and <footer> and make that even if there is little content the footer is always below the page and the main occupies all the available space. If there was a lot of content, the footer should be placed behind the main, naturally.
+- Make a page with header, main and footer and make that even if there is little content the footer is always below the page and the main occupies all the available space. If there was a lot of content, the footer should be placed behind the main, naturally.
 
 ## EXERCISE 6
 
