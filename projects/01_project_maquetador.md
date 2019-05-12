@@ -29,8 +29,18 @@ You should create a website for your company. Everything, including: name, type 
 
 - The page should be uploaded to github from the beggining.
 - Students should be able to explain EVERY PIECE OF CODE, meaning they have coded everything and not copy pasted material without understanding.
-- HTML should be semantic and valid.
 - The website has to include the maximum amount of elements we have seen in [HTML and CSS curriculum](https://github.com/mfrcodingproject/curriculum) as possible.
+    - Structural HTML elements
+    - A good use of HTML attributes
+    - Link between pages
+    - Forms
+    - HTML should be semantic and valid.
+    - Adequate use of CSS selectors
+    - Adequate use of CSS margins, paddings, borders...etc.
+    - Use the CSS cascade and inheritance.
+    - Use flexbox, and positioning: a sticky menu, an absolute buttons...etc.
+    - Your website should be responsive, and work well in mobiles or tablets.
+    - Add some transitions or animations to improve user experience
 
 ## How to start
 
@@ -38,5 +48,9 @@ You should create a website for your company. Everything, including: name, type 
 2. Decide your company and product
 3. Write down the navigation of the website and the elements that should go in it.
 4. Draw how the website will look and start thinking about the HTML and CSS
-5. Think more.
-6. Start creating your website.
+    - Remember to think mobile-first
+5. Think more. Is it responsive
+6. Create your website structure.
+7. Create the HTML structure and validate.
+8. Add the CSS, media queries...etc.
+9. Repeat for every page
