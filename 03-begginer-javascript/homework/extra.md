@@ -4,7 +4,7 @@
 ```
     console.log("string");
     console.log(1);
-    console.log(2*3);
+    console.log(2 * 3);
 ```
 
 1. **Using the symbol +**
