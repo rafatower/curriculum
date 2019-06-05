@@ -1,4 +1,4 @@
-#Homework
+# Homework
 
 Presenting with alert
 
@@ -11,7 +11,7 @@ Presenting with alert
      Message 3: "I like ____ and ____"l use alert as we have seen in the previous examples.
 ```
 
-###Details to be considered
+### Details to be considered
     - first you can do it directly in the html but ideally you work this exercise by running the javascript in a separate file.
     - you should use the template to execute your javascript code.
 
