@@ -17,7 +17,7 @@ Presenting with alert
 
 
 ```javascript
-function Main{
+function Main(){
 	execute(){
 		// JavaScript goes here
 		console.log("Hello world");
