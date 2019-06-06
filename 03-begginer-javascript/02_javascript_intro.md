@@ -242,6 +242,12 @@ Create more true or false questions.
 3. If the answer is incorrect, remove 5 points to the `points` variable.
 4. Display how many points the user has on the console.
 
+### Exercise 3 - A dinner
 
+Imagine you are a famous singer in a band and you want to invite other musicians to a dinner.
+
+Write an array of every musician and its band in a format `musician:band` and using only one console log, display the list of assistants in the console.
+
+### Exercise 4 - A dinner
 
 
