@@ -210,3 +210,38 @@ random();
 add(2);
 ```
 
+## Hands on!
+
+### Exercise 1 - The Lifetime Supply Calculator
+
+How many potatoes will a person eat until the end of his life? Discover yourself!
+
+ 1. Store the persons current age into a variable.
+ 1. Store an stimated maximum age into a variable.
+ 1. Store an estimated amount per week (as a number).
+ 1. Calculate how many weeks will happen until the end of this person life.
+ 1. Calculate how many potatoes would eat total for the rest of his life.
+ 1. Output the result to the screen by console like so: "NAME has NN years and will eat NN potatoes until age of X".
+
+### Exercise 2 - True or false
+
+Using promp, variables and **conditionals**, ask questions to the users and display the result on the console.
+
+  1. Ask: "Tomatos are fruits, not vegetables: true or false". If that answer is "true" you show "correct", otherwise show "incorrect".
+  1. Ask: "You should drink 8 glasses of water: true or false". If that answer is "false" you show "correct", otherwise show "incorrect".
+  1. Ask: "Fishes have only three seconds of memory: true or false". If that answer is "false" you show "correct", otherwise show "incorrect".
+  1. Ask: "The Great Wall of China is the only man made structure visible from space
+The Great Wall of China: true or false". If that answer is "true" you show "correct", otherwise show "incorrect".
+
+Create more true or false questions.
+
+#### Bonus points
+
+1. Create a variable `points` and initialize it to zero.
+2. If the answer is correct, add 10 points to the `points` variable.
+3. If the answer is incorrect, remove 5 points to the `points` variable.
+4. Display how many points the user has on the console.
+
+
+
+
