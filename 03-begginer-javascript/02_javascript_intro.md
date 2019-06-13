@@ -185,29 +185,41 @@ productList.forEach((product, index) => {
 
 ## Functions
 
-functions, which allow you to store a piece of code that does a single task inside a defined block, and then call that code whenever you need it using a single short command — rather than having to type out the same code multiple times.
+A function is a code snippet that can be called by other code or by itself, or a variable that refers to the function. 
 
-Imagine a machine, each time you push a button it does something:
+Imagine a machine, each time you push a button it does something. You don't need to know how it works, the machine just get some material, transforms it, and returns something modified. If you open it, you can understand how it transforms it.
 
 ```javascript
 function random() {
   return Math.floor(Math.random());
-}
+};
+
+//or
+
+const random = () => {
+   return Math.floor(Math.random());
+};
 ```
 
 Sometimes, you can add something to the machine and it converts it and returns something else:
 
 ```javascript
-function add(number) {
-  return number * number;
+function add(number1, number2) {
+  return number + number;
 }
+
+// or
+
+const add = (number1, number2) => {
+   return number + number;
+};
 ```
 
 To activate it, you should **push the button**
 
 ```javascript
 random();
-add(2);
+add(2, 3);
 ```
 
 ## Hands on!
@@ -247,7 +259,5 @@ Create more true or false questions.
 Imagine you are a famous singer in a band and you want to invite other musicians to a dinner.
 
 Write an array of every musician and its band in a format `musician:band` and using only one console log, display the list of assistants in the console.
-
-### Exercise 4 - A dinner
 
 
