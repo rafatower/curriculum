@@ -110,12 +110,12 @@ Let's check how the Event Object looks like:
 ```javascript
 const myButton = document.querySelector('#my-button');
 
-myButton.addEventListener('click', print);
-
 const print = (event) => {
     console.log('print:', event);
     alert('hello world');     
 }
+
+myButton.addEventListener('click', print);
 ```
 The Event interface is used to provide contextual information about an event to the handler processing the event. 
 
