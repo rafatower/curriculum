@@ -81,7 +81,7 @@ Further reading:
 Not every CSS and JS feature is supported for every browser. Some projects may require to support an old version of a browser and we might not be able to use this feature. It is very important to ensure that the browsers we expect our customers are going to use are supported by our code. 
 "Can I use" provides up-to-date browser support tables for support of front-end web technologies on desktop and mobile web browsers.
 
-![can I use table]('./assets/caniuse.png')
+![can I use table](./assets/caniuse.png "CanIuse Table")
 
 For example, can I use flexbox in every browser?
 No, some browsers like [Internet Explorer 11 do not support standard CSS flexbox](https://caniuse.com/#search=flexbox)
