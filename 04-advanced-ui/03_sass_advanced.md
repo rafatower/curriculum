@@ -1,4 +1,27 @@
-# Sass basics
+# Advanced Sass
+
+To test this part you should install a Sass compiler:
+
+- Download and install [KoalaApp](http://koala-app.com/)
+- Create a new folder named `04_advanced_ui` in your classes folder
+- Create a file named `main.scss`.
+- Copy and paste the code from sassmeister you just created.
+- Open `Koala` and on the `+` symbol. Search the folder we just created and add it.
+- You should see your `main.scss` file. Select it.
+- Click on `compile` button.
+
+This process should create two files: `main.css` and `main.map.css`. Forget about the last one for now, its just a [sourcemap](https://blog.teamtreehouse.com/introduction-source-maps)
+
+Open you `main.css`. It should be the CSS compiled as Sassmeister did. Now you are able to compile your own files.
+Remember that you should modify only on the `main.scss` but your HTML should include the automatically generated `main.css` file.
+
+The process is the following:
+
+1. Edit `main.scss`
+2. Compile using koala.
+3. Link the generated `main.css` to your html `head`
+4. Confirm that the CSS works.
+5. Modify and compile again `main.scss`
 
 ## Partials
 

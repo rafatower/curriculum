@@ -65,6 +65,6 @@ Be aware that **overly nested rules will result in over-qualified CSS that could
 
 
 ## Hands on
+Get a CSS file from a previous project and try to convert it (or part of it) to Sass using sassmeister. Remember to include custom properties, nesting selectors, sass variables.
 
-Convert all your project files to Scss. Include variables and nesting.
-Remeber you should install [Koala APP](https://koala-app.com/) to compile te files.
+Can you spot difference between custom properties and sass variables?
