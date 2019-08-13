@@ -49,6 +49,7 @@ function i(n) {
  * the functions to the number
  *
  * E.g: compose(f, g, 10) -> 26
+ * E.g: compose(g, f, 10) -> 23
  */
 
 function compose(f, g, n) {
@@ -62,3 +63,4 @@ console.log(g(7))
 console.log(h(10))
 console.log(i(10))
 console.log(compose(f, g, 10))
+console.log(compose(g, f, 10))
