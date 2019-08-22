@@ -15,7 +15,14 @@ Functions are descriptions of the rules for manipulating data. They
 create abstractions around procedures, that is, a series of steps that
 we want to make on some given elements to produce a result. They take
 arguments and return a value, in a way similar to the functions in
-mathematics (such as the `sin` function).
+mathematics.
+
+In JavaScript, functions are first-class citizens, that is, they can
+be passed as arguments to other functions, and be returned from
+functions. Thus, in the same way than a variable can have a number or
+a string as a value, it can also have a function, and we can
+manipulate them in similar ways. This feature gives us a very powerful
+tool to write good, readable code.
 
 ## Syntax
 
