@@ -123,8 +123,11 @@ multiply(5); // returns 15
 
 Actually, all arguments are always given a default value, which is
 `undefined`, unless a different default value is given in the
-definition of the function. This is useful when we want to create functions that
-In particular, this means that a function can always be called
+definition of the function. In particular, this means that a function
+can always be called with less arguments than appear in the definition
+(sometimes the functions then just check if they are `=== undefined`
+and change their behavior depending on that). We don't recommend
+writing code in such a way.
 
 ### Variadic functions
 
