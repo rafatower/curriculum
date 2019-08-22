@@ -129,10 +129,44 @@ In particular, this means that a function can always be called
 ### Variadic functions
 
 We can define a function to take an arbitrary number of arguments, and
-access all of them by using the reserved keyword `arguments`. This
-keyword will have a list of the values of all the arguments.
+access all of them by using the rest parameter syntax.
 
-Let's see how we can use it:
+For example:
+
+```js
+function sum(...args) {
+    let x = 0;
+
+    for (let i = 0; i < args.length; ++i)
+        x += args[i];
+
+    return x;
+}
+
+sum(1, 2); // returns 3
+sum(1, 2, 3); // returns 6
+```
+
+A function's last parameter can be prefixed with `...` and it will
+make the remaining given arguments to be placed in an array.
+
+```js
+function myFun(a, b, ...manyMoreArgs) {
+  console.log("a", a);
+  console.log("b", b);
+  console.log("manyMoreArgs", manyMoreArgs);
+}
+
+myFun("one", "two", "three", "four", "five", "six");
+
+// Console Output:
+// a, one
+// b, two
+// manyMoreArgs, [three, four, five, six]
+```
+
+Another way is to use the reserved keyword `arguments`. This keyword
+will have a list of the values of all the arguments:
 
 ```js
 function sum() {
@@ -143,9 +177,6 @@ function sum() {
 
     return x;
 }
-
-sum(1, 2); // returns 3
-sum(1, 2, 3); // returns 6
 ```
 
 ## Recursive functions
