@@ -52,7 +52,7 @@ let z = average(x, y);
 console.log(`The average of ${x} and ${y} is ${z}.`);
 ```
 
-### Arrow functions.
+### Arrow functions
 
 A function can also be defined in a different way. Instead of using
 the word `function`, we can simply put a "fat arrow" `=>` that goes
@@ -202,7 +202,7 @@ This function uses the fact that `factorial(n) = n * factorial(n -
 be computed.
 
 Recursive calls can be very useful, especially when we have processes
-that traverse certain data structures called *trees*.
+that traverse certain data structures such as *trees*.
 
 ## Closures
 
@@ -231,4 +231,4 @@ in JavaScript!). The returned function, when called without arguments,
 will increase the value of `count`, which is not visible from outside
 the function, but has been "captured" by the function and can use
 it. The `count` variable is not free anymore, and we have formed what
-is called a *closure*.
+we call a *closure*.
