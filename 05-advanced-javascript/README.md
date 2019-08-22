@@ -1,3 +1,5 @@
+The original plan was:
+
 * Basic programming and devtools
 	1. What is JS + Deeper Devtools + How to execute JS
 	2. Variables (var, const, let) + Variable typing + Operadores
@@ -8,3 +10,5 @@
 	5.2 Functions + review of loops, conditionals, and vars
 	5.3 Functions + review of loops, conditionals, and vars
 	6. Object Oriented Programming + Small project
+
+But the plan has changed a bit. So don't trust this file atm. :wink:
