@@ -137,7 +137,7 @@ For example:
 function sum(...args) {
     let x = 0;
 
-    for (let i = 0; i < args.length; ++i)
+    for (let i = 0; i < args.length; i++)
         x += args[i];
 
     return x;
@@ -159,7 +159,7 @@ function myFun(a, b, ...manyMoreArgs) {
 
 myFun("one", "two", "three", "four", "five", "six");
 
-// Console Output:
+// Outputs:
 // a, one
 // b, two
 // manyMoreArgs, [three, four, five, six]
@@ -172,7 +172,7 @@ will have a list of the values of all the arguments:
 function sum() {
     let x = 0;
 
-    for (let i = 0; i < arguments.length; ++i)
+    for (let i = 0; i < arguments.length; i++)
         x += arguments[i];
 
     return x;
@@ -212,7 +212,7 @@ A function can capture its non-local variables by reference.
 function counter() {
     let count = 0;
 
-    return function() {
+    return () => {
         count += 1;
         return count;
     };
