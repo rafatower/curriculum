@@ -2,19 +2,19 @@
 
 A good programming language is more that just a means for instructing
 a computer to perform tasks. It also help us think about the
-processes, by providing a way to combine simple ideas to form more
-complex ones.
+processes, by providing a way to *combine simple ideas to form more
+complex ones*.
 
 Abstractions allow to write bigger pieces of code in terms of simpler
-elements. This is similar to a natural language, when we define new
+elements. This is similar to a natural language, where we define new
 terms so we can refer to them later without giving all the details
-again. JavaScript has two means of by which compound elements can be
-named and manipulated as units: functions and objects.
+again. JavaScript has two means by which compound elements can be
+named and manipulated as units: **functions** and **objects**.
 
 Functions are descriptions of the rules for manipulating data. They
 create abstractions around procedures, that is, a series of steps that
 we want to make on some given elements to produce a result. They take
-arguments and return a value, in a way similar to the functions in
+arguments and return a value, in a way similar to functions in
 mathematics.
 
 In JavaScript, functions are first-class citizens, that is, they can
