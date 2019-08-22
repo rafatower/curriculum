@@ -112,13 +112,13 @@ we call the function without passing that argument.
 For example:
 
 ```js
-function multiply(a, b = 1) {
+function multiply(a, b = 3) {
     return a * b;
 }
 
-console.log(multiply(5, 2)); // outputs 10
+multiply(5, 2); // returns 10
 
-console.log(multiply(5)); // outputs 5
+multiply(5); // returns 15
 ```
 
 Actually, all arguments are always given a default value, which is
