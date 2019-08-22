@@ -213,12 +213,22 @@ function counter() {
     let count = 0;
 
     return function() {
-        return ++count;
+        count += 1;
+        return count;
     };
 }
 
 let closure = counter();
+
 closure(); // returns 1
 closure(); // returns 2
 closure(); // returns 3
 ```
+
+In this example, the function `counter` takes no arguments and returns
+a function (we can do that, since functions are first-class citizens
+in JavaScript!). The returned function, when called without arguments,
+will increase the value of `count`, which is not visible from outside
+the function, but has been "captured" by the function and can use
+it. The `count` variable is not free anymore, and we have formed what
+is called a *closure*.
