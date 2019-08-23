@@ -29,8 +29,8 @@ This is the basic structure of an HTML page
 
 Let's read it:
 
-1. First, we need to tell browsers that this is an HTML5 web page with the <!DOCTYPE html> line.
-1. Then, our entire web page needs to be wrapped in <html> tags. Ensure that the tag is opened (`<html>`) and closed (`</html>)`. Everything inside this tags will be our HTML page.
+1. First, we need to tell browsers that this is an HTML5 web page with the `<!DOCTYPE html>` line.
+1. Then, our entire web page needs to be wrapped in `<html>` tags. Ensure that the tag is opened (`<html>`) and closed (`</html>)`. Everything inside this tag will be our HTML page.
 1. Then, the HTML is divided in two tags: `head` and `body`
     1. `Head`: A web page’s head contains all of its metadata, like the page title, any CSS stylesheets, and other things that are required to render the page but you don’t necessarily want the user to see.
     1. The bulk of our HTML markup will live in the <body> element, which represents the visible content of the page.
@@ -60,10 +60,10 @@ Tags can be nested inside of other tags. To maintain readable code, the parent t
 </div>
 ```
 
-Don't worry about the tags, we will learn tags in the next class
+Don't worry about the tags, we will learn tags in the next class.
 
 ## Comments
-Comments are parts of our HTML that will not be visible to the user. It is used to write messages for the programmer of the website. A comment looks like this
+Comments are parts of our HTML that will not be visible to the user. It is used to write messages for the programmer of the website. A comment looks like this:
 
 ```html
     <!-- This won't be visible but will be in our code -->
@@ -72,4 +72,4 @@ Comments are parts of our HTML that will not be visible to the user. It is used 
 ## Hands on!
 Create a new file `index.html` and add the previous HTML. Play with it: add tags, add comments and open it in your browser to see how it looks. 
 
-Is your first website!
+It is your first website!
