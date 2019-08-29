@@ -79,6 +79,8 @@ var kenscar = new Car('Nissan', '300ZX', 1992);
 var vpgscar = new Car('Mazda', 'Miata', 1990);
 ```
 
+(The examples come from this [MDN page](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects).
+
 ## Spread syntax
 
 We can use the so-called *spread syntax* (`...`) for various purposes.
