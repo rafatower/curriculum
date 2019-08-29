@@ -45,7 +45,7 @@ function i(n) {
  * Pro exercise: higher order functions
  *
  * Define a function "compose" that receives two
- * functions and a number as arguments and applies the composiion of
+ * functions and a number as arguments and applies the composition of
  * the functions to the number
  *
  * E.g: compose(f, g, 10) -> 26
@@ -58,9 +58,9 @@ function compose(f, g, n) {
 
 
 // Tests (as in the examples)
-console.log(f(4))
-console.log(g(7))
-console.log(h(10))
-console.log(i(10))
-console.log(compose(f, g, 10))
-console.log(compose(g, f, 10))
+console.log(f(4));
+console.log(g(7));
+console.log(h(10));
+console.log(i(10));
+console.log(compose(f, g, 10));
+console.log(compose(g, f, 10));
