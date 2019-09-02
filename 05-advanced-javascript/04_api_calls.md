@@ -85,4 +85,4 @@ request.send();
 
 (By the way, see the funny use of `var` and `for (var i ...`?  This
 looks indeed like old JavaScript. Nowadays we would use `const` and
-`data.forEach(x => console.log(x))` instead.)
+`data.forEach(film => console.log(film.title))` instead.)
