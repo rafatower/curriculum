@@ -83,5 +83,6 @@ request.onload = function() {
 request.send();
 ```
 
-(By the way, see the funny use of `var` and `function() {...` and `for
-(var i...`?  This should feel bad. You don't want to write like that.)
+(By the way, see the funny use of `var` and `for (var i ...`?  This
+looks indeed like old JavaScript. Nowadays we would use `const` and
+`data.forEach(x => console.log(x))` instead.)
