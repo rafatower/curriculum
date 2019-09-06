@@ -4,13 +4,16 @@ The material of that exercise comes from books.adalab.es
 
 
 ## EXERCISE 1 | Random number
-Let's play a little with the codepen code of the previous example. Looking at the documentation of 'rand.fun', we will ask for an integer (integer).
-
-Can we play by adding parameters to the URL of the key type = value, always after character? and separated by &, for example if you wanted to request a string with a certain length, the url would look like this
+The first exercise you can create a password generator.
+For this you have the next api
 
 https://api.rand.fun/text/password?length=20
 
+
+
+
 ### Random Dog | Complete example of a fetch request
+How the second part you do use this code for show a random dog image in html.
 [Codepen Example](https://codepen.io/adalab/pen/oqQNvK?editors=1010)
 
 ```javascript
@@ -41,9 +44,26 @@ The URL of this API is https://api.github.com/users/{username}, where {username}
 We are going to create a page with a text input and a search button. The user will enter a GitHub username in the input. We will prepare a function that will be executed when the search button is pressed and that contains a request to the API to obtain information from that user and thus display it on our page:
 - first name
 - number of repositories
-- avatar (image)fkfkfkf
+- avatar (image)
+
 ### EXERCISE 4 | Github User no Found
 Now, use the .catch for show a message when doesn't exist the user.
+
+[catch documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/catch)
+Example catch use.
+
+```javascript 
+fetch('https://jsonplaceholder.typicode.com/404')
+  .then(res => {
+    if(res.ok) {
+      return res;
+    } else {
+      throw Error(`Request rejected with status ${res.status}`);
+    }
+  })
+  .catch(console.error)
+```
+
 
 ### EXERCISE 5 | Github Repository list
 
