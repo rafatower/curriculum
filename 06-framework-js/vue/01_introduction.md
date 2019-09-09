@@ -18,14 +18,14 @@ and probably the easiest one. We will use it in our course.
 
 To use Vue we can add the following to our HTML:
 
-```js
+```html
 <!-- development version, includes helpful console warnings -->
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 ```
 
 or:
 
-```js
+```html
 <!-- production version, optimized for size and speed -->
 <script src="https://cdn.jsdelivr.net/npm/vue"></script>
 ```
