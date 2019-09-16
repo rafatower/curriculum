@@ -46,6 +46,21 @@ We are going to create a page with a text input and a search button. The user wi
 ### Exercise 4 | Github User no Found
 Now, use the .catch for show a message when doesn't exist the user.
 
+catch documentation: https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
+
+Cacth Example 
+```javascript
+fetch('https://jsonplaceholder.typicode.com/404')
+  .then(res => {
+    if(res.ok) {
+      return res.json();
+    } else {
+      throw Error(`Request rejected with status ${res.status}`);
+    }
+  })
+  .catch(console.error)
+```
+
 ### Exercise 5 | Github Repository list
 
 List of repos of an organization in Github
