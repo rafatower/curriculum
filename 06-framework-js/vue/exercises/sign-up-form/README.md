@@ -5,7 +5,7 @@ The following validations.
 
 - First name, last name, age and email are required fields.
 - Email must have an @ and a period ".".
-- Age has to be an integer, it is decile without decimals.
+- Age has to be an integer, without decimals.
   It must also be greater than zero and less than 110 years.
 
   Other requirements to consider.
