@@ -1,4 +1,4 @@
-# Our firsts pages
+# Our first pages
 
 - We need a header component, with 3 buttoms home, products and contact.
 
